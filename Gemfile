@@ -10,6 +10,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'jquery-rails'
 gem 'paperclip', '~> 4.3', '>= 4.3.2'
 gem 'pg'
+gem 'puma'
 gem 'rails', '4.2.4'
 gem 'sass-rails', '~> 5.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
@@ -23,6 +24,6 @@ end
 
 group :development do
   gem 'web-console', '~> 2.0'
-
+  gem 'foreman'
   gem 'spring'
 end
