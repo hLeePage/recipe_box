@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 ruby '2.2.3'
-gem 'aws-sdk'
+gem 'aws-sdk', '< 2.0'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.5.1'
 gem 'cocoon', '~> 1.2', '>= 1.2.6'
 gem 'devise', '~> 3.5', '>= 3.5.2'
